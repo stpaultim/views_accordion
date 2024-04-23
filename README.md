@@ -6,7 +6,7 @@ grouping of fields and ajax pagination.
 
 ## Installation
 
-- Install this module using the 
+- Install this module using the
 [official Backdrop CMS instructions](https://backdropcms.org/guide/modules).
 
 ## Configuration and Usage
@@ -22,10 +22,10 @@ you to configure the accordion.
 The first field WILL be used as the header for each accordion section, all
 others will be displayed when the header is clicked. The module creates an
 accordion section per row of results from the view. If the first field includes
-a link, this link will not function (the `js` will return false). Nothing will 
+a link, this link will not function (the `js` will return false). Nothing will
 break but you should be aware that this will happen.
 
-More details may be found (or added) in the 
+More details may be found (or added) in the
 [Wiki](https://github.com/backdrop-contrib/views_accordion/wiki)
 
 ## Issues
@@ -35,11 +35,13 @@ Bugs and Feature requests should be reported in the
 
 ## Current Maintainers
 
-- [Laryn Kragt Bakker](https://github.com/laryn), [CEDC.org](https://CEDC.org) 
+- [Laryn Kragt Bakker](https://github.com/laryn)
+- Collaboration and co-maintainers welcome
 
 ## Credits
 
-- Ported to Backdrop by [Laryn Kragt Bakker](https://github.com/laryn), [CEDC.org](https://CEDC.org)
+- Ported to Backdrop by [Laryn Kragt Bakker](https://github.com/laryn)
+- Port to Backdrop sponsored by [CEDC.org](https://CEDC.org)
 - Created and maintained for Drupal by [Manuel Garcia](http://drupal.org/user/213194)
 
 ## License
