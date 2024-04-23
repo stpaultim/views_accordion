@@ -131,13 +131,13 @@ class views_accordion_style_plugin extends views_plugin_style {
       '#description' => t('Choose what animation effect you would like to see, or "None" to disable it.'),
       '#options' => $animated_options,
     );
-    $form['animation_time'] = [
-      '#type' => 'textfield',
+    $form['animation_time'] = array(
+      '#type' => 'number',
       '#title' => t('Animation time'),
       '#default_value' => $this->options['animation_time'],
+      '#min' => 0,
       '#description' => t('The animation duration in milliseconds'),
-      '#element_validate' => array('views_element_validate_integer'),
-    ];
+    );
     $form['autoheight'] = array(
       '#type' => 'checkbox',
       '#title' => t('Autoheight'),
