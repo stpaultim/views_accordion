@@ -12,11 +12,10 @@ grouping of fields and ajax pagination.
 ## Configuration and Usage
 
 Your view must meet the following requirements:
-  * Under the view format, you should show Fields as the row style.
-  * Provide at least two fields to show.
-
-Choose `Views Accordion` as the Format in the Style dialog within your view, which will prompt
-you to configure the accordion.
+  * ``Format`` = ``Views Accordion`` in the Style dialog within your view.
+  * Review the Format settings.
+  * ``Show`` = ``Fields`` as the row style, under the Format setting.
+  * Provide at least two fields to display (Example: ``Title and Body`` or ``Question and Answer``).
 
 **Important Note:**
 The first field WILL be used as the header for each accordion section, all
